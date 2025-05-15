@@ -1,0 +1,15 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.1
+reloadable = true
+
+[libraries]
+linux.debug.x86_64 =     "res://../target/debug/libroguemon.so"
+linux.release.x86_64 =   "res://../target/release/libroguemon.so"
+windows.debug.x86_64 =   "res://../target/debug/roguemon.dll"
+windows.release.x86_64 = "res://../target/release/roguemon.dll"
+macos.debug =            "res://../target/debug/libroguemon.dylib"
+macos.release =          "res://../target/release/libroguemon.dylib"
+macos.debug.arm64 =      "res://../target/debug/libroguemon.dylib"
+macos.release.arm64 =    "res://../target/release/libroguemon.dylib"
+        
