@@ -4,6 +4,9 @@ use godot::prelude::*;
 mod rust_example;
 mod battle_manager;
 mod player;
+mod mon;
+mod skill;
+mod enemy;
 
 struct GdRust;
 

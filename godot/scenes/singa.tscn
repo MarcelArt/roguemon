@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://l1xpgdpupemo"]
+
+[node name="Mon" type="Mon" node_paths=PackedStringArray("skill1")]
+name = "Singa"
+skill1 = NodePath("Skill")
+
+[node name="Skill" type="Skill" parent="."]

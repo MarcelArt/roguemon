@@ -27,21 +27,10 @@ impl INode2D for BattleManager {
     }
 
     fn ready(&mut self) {
-        // This is where you would put your initialization code
-        godot_print!("BattleManager is ready!");
-        self.get_turn_state();
     }
 
     fn process(&mut self, _delta: f64) {
-        match self.turn_state {
-            TurnState::Enemy => {
-                godot_print!("Enemy's turn!");
-                self.turn_state = TurnState::Player;
-            },
-            TurnState::Player => {
-                godot_print!("Player's turn, waiting for input...");
-            },
-        }
+        
     }
 
     // fn physics_process(&mut self, _delta: f64) {
